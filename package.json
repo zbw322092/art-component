@@ -1,0 +1,16 @@
+{
+  "name": "art-component",
+  "version": "0.0.1",
+  "description": "framework agnostic components library for web development",
+  "author": "Bowen Zhong <zbw322092@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/rollup -c ./rollup.config.js -w "
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^3.0.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-less": "^1.1.2",
+    "typescript": "^3.8.3"
+  }
+}
